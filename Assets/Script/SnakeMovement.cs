@@ -45,13 +45,16 @@ public class SnakeMovement : MonoBehaviour
         transform.Translate(lastDirection * speed * Time.deltaTime, Space.World);
     }
 
-    public void GetFruit()
+    public void GetFruit(int points)
     {
-        score++;
-
-        speed = 2 + (score/5);
+        score += points;
 
         Debug.Log("Score: " + score);
+    }
+
+    public void IncreaseSpeed()
+    {
+        speed++;
     }
 
     private void Die()

@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Fruit : MonoBehaviour
 {
-    protected int points = 1;
+    [SerializeField] private int points = 1;
 
     public virtual void Eat()
     {
         Destroy(gameObject);
-        SnakeMovement.Instance.GetFruit();
+        SnakeMovement.Instance.GetFruit(points);
     }
 }
