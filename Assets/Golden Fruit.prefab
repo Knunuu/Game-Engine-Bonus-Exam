@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 160851156aed10c4bb584775d8f43e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoldenFruit
-  points: 5
+  points: 2
 --- !u!33 &7576108590244155474
 MeshFilter:
   m_ObjectHideFlags: 0

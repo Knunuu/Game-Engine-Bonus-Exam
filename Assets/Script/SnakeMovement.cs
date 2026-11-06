@@ -75,4 +75,9 @@ public class SnakeMovement : MonoBehaviour
             collision.gameObject.GetComponent<Fruit>().Eat();
         }
     }
+
+    public int GetScore()
+    {
+        return score;
+    }
 }

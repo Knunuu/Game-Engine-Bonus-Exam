@@ -8,5 +8,6 @@ public class Fruit : MonoBehaviour
     {
         Destroy(gameObject);
         SnakeMovement.Instance.GetFruit(points);
+        FruitSpawner.Instance.SpawnFruit();
     }
 }
